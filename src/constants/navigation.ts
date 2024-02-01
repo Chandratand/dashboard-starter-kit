@@ -1,7 +1,7 @@
 'use client';
 
 import { NavigationItem } from '@/types';
-import { ArrowLeftRight, Kanban, LayoutDashboard, User2 } from 'lucide-react';
+import { ArrowLeftRight, KanbanSquare, LayoutDashboard, User2 } from 'lucide-react';
 
 export const NAVIGATION_ITEMS: NavigationItem[] = [
   {
@@ -12,7 +12,7 @@ export const NAVIGATION_ITEMS: NavigationItem[] = [
   },
   {
     title: 'Transaction',
-    href: '/dashboard/transction',
+    href: '/dashboard/transctions',
     icon: ArrowLeftRight,
     label: 'transaction',
   },
@@ -25,7 +25,7 @@ export const NAVIGATION_ITEMS: NavigationItem[] = [
   {
     title: 'Kanban',
     href: '/dashboard/kanban',
-    icon: Kanban,
+    icon: KanbanSquare,
     label: 'kanban',
   },
 ];
